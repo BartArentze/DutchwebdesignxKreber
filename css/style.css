@@ -1,3 +1,7 @@
+.navbar {
+    background: transparent !important;
+}
+
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -8,8 +12,24 @@
     background-repeat: no-repeat;
 }
 
-.navbar {
-    background: transparent !important;
+.masthead-heading {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+.bold-text {
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+
+.masthead-text {
+    color: #dddddd;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    width: 900px;
 }
 
 section.content {
