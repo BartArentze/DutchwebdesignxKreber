@@ -1,0 +1,25 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: linear-gradient(to right, rgba(100, 136, 179, 0.25), rgba(217, 86, 36, 0.25)),
+        url('../img/masthead.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background: transparent !important;
+}
+
+section.content {
+    background: #252525;
+}
+
+.card-img {
+    height: 300px;
+}
+
+.news-row .card {
+    background-color: rgb(46, 46, 46) !important;
+}
