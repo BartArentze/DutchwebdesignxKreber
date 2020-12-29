@@ -33,7 +33,7 @@
 }
 
 section.content {
-    background: #1a1a1a;
+    background: rgb(29, 29, 29);
 }
 
 .cta-cards {
@@ -69,7 +69,7 @@ section.content {
 }
 
 .news-row .card {
-    background-color: #2e2e2e !important;
+    background-color: rgb(46, 46, 46) !important;
     margin-bottom: 120px;
 }
 
@@ -92,16 +92,39 @@ section.content {
     padding-bottom: 10px;
 }
 
-footer {
-    width: 100%;
+.information {
+    background-color: rgb(22, 22, 22) !important;
+    padding: 60px 0;
 }
 
-footer .information {
+ul {
+    list-style-type: none;
+    color: rgb(130, 130, 130);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.information-title {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 0 0 10px 30px;
+    font-size: 24px;
+}
+
+.contact {
+    padding-top: 45px;
+}
+.contact-text {
+    color: #fff;
+    padding-left: 5px;
 }
 
 .copyright {
     height: 75px;
-    background-color: rgb(33, 33, 33) !important;
+    background-color: rgb(32, 32, 32) !important;
 }
 
 .copyright-text,
@@ -109,6 +132,6 @@ footer .information {
     padding-top: 25px;
     color: rgb(140, 140, 140);
     font-family: 'Rubik', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
 }
